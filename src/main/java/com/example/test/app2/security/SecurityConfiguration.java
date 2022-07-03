@@ -20,10 +20,10 @@ public class SecurityConfiguration {
   @Autowired
   private UserService userSvc;
 
-	@Bean
-	public SecurityFilterChain filterChain(HttpSecurity http)
+  @Bean
+  public SecurityFilterChain filterChain(HttpSecurity http)
   throws Exception {
-		return http
+    return http
       .headers().frameOptions().disable()
       .and()
       .csrf().disable()
@@ -37,8 +37,8 @@ public class SecurityConfiguration {
         ).permitAll()
         .anyRequest()
         .authenticated()
-			).httpBasic(withDefaults())
+      ).httpBasic(withDefaults())
       .authenticationManager(userSvc)
       .build();
-	}
+  }
 }
