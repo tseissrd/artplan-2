@@ -7,16 +7,14 @@ import com.example.test.app2.persistence.model.Species;
 import com.example.test.app2.persistence.repository.GenderRepository;
 import com.example.test.app2.persistence.repository.SpeciesRepository;
 import java.util.Arrays;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
  *
- * @author Sovereign
+ * @author tseissrd
  */
 @Configuration
 public class EnumInitializer {

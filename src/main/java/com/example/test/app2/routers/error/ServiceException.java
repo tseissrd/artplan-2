@@ -6,7 +6,7 @@ import java.util.Map;
 
 /**
  *
- * @author Sovereign
+ * @author tseissrd
  */
 public class ServiceException
 extends Exception {

@@ -19,7 +19,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 /**
  *
- * @author Sovereign
+ * @author tseissrd
  */
 @Entity
 @Table(name="AppUser")

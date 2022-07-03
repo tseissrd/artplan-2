@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 
 /**
  *
- * @author Anechka
+ * @author tseissrd
  */
 @Service
 public final class AnimalService {

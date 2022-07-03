@@ -4,13 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 /**
  *
- * @author Sovereign
+ * @author tseissrd
  */
 @Entity
 public class Species
@@ -23,10 +21,6 @@ public class Species
   }
   
   private static final Map<Instance, Species> instances = new HashMap<>();
-  
-//  @Id
-//  @GeneratedValue(strategy=GenerationType.IDENTITY)
-//  private long id;
   
   @Id
   private String name;

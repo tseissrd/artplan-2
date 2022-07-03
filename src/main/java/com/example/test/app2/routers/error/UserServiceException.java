@@ -4,7 +4,7 @@ package com.example.test.app2.routers.error;
 
 /**
  *
- * @author Sovereign
+ * @author tseissrd
  */
 public class UserServiceException
 extends ServiceException {

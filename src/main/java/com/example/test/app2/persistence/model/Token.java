@@ -9,7 +9,7 @@ import javax.persistence.GenerationType;
 
 /**
  *
- * @author Sovereign
+ * @author tseissrd
  */
 @Entity
 public class Token

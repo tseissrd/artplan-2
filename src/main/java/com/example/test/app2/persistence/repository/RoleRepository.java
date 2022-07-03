@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 
 /**
  *
- * @author Sovereign
+ * @author tseissrd
  */
 @Repository
 public interface RoleRepository extends JpaRepository<Role, String> {

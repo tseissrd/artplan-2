@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 
 /**
  *
- * @author Sovereign
+ * @author tseissrd
  */
 @Repository
 public interface AnimalRepository extends JpaRepository<Animal, Long> {

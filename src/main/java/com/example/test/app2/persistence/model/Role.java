@@ -8,7 +8,7 @@ import org.springframework.security.core.GrantedAuthority;
 
 /**
  *
- * @author Sovereign
+ * @author tseissrd
  */
 @Entity
 @Table(name="AppRole")

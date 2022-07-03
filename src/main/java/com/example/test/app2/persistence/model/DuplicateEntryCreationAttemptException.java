@@ -2,7 +2,7 @@ package com.example.test.app2.persistence.model;
 
 /**
  *
- * @author Anechka
+ * @author tseissrd
  */
 public class DuplicateEntryCreationAttemptException
 extends RuntimeException {
