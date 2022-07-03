@@ -1,0 +1,1 @@
+curl http://127.0.0.1:8080/animal/get -d "{\"id\":%1}" -v -X GET -H "content-type: application/json" -u "%2"

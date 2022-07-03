@@ -1,0 +1,1 @@
+curl http://127.0.0.1:8080/animal/create -d "{\"name\":\"%1\",\"gender\":\"Male\",\"birthdate\":\"2005-09-06T18:00:00.000Z\",\"species\":\"dog\"}" -v -X POST -H "content-type: application/json" -u "%2"

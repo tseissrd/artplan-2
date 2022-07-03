@@ -1,0 +1,1 @@
+curl http://127.0.0.1:8080/animal/update -d "{\"id\":%1,\"name\":\"%2\"}" -v -X POST -H "content-type: application/json" -u "%3"

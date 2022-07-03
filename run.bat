@@ -1,0 +1,1 @@
+java -jar app2-1.0.0.jar

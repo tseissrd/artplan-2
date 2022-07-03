@@ -1,0 +1,1 @@
+curl http://127.0.0.1:8080/user/checkName -d "{\"username\":\"%1\"}" -v -X GET -H "content-type: application/json"

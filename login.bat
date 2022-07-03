@@ -1,0 +1,1 @@
+curl http://127.0.0.1:8080/user/login -d "{\"username\":\"%1\",\"password\":\"%2\"}" -v -X GET -H "content-type: application/json"

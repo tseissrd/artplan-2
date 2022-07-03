@@ -1,0 +1,1 @@
+curl http://127.0.0.1:8080/animal/delete -d "{\"id\":%1}" -v -X DELETE -H "content-type: application/json" -u "%2"
